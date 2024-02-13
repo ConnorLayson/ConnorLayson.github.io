@@ -14,3 +14,13 @@
   padding-right: 5px;
   background-color: #56615F;
 }
+
+.Klopzo_Korner p{
+    border-style: solid;
+    border-width: 3;
+    align: left;
+    background-color: white;
+}
+.Klopzo_Korner img{
+    scale: 3;
+}
