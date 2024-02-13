@@ -15,12 +15,9 @@
   background-color: #56615F;
 }
 
-.Klopzo_Korner p {
-    border-style: solid;
-    border-width: 3;
-    float: left;
-    padding-top: 50%;
-}
 .Klopzo_Korner img {
     height: 150px;
+}
+.Klipzo_Korner p {
+    padding: 50%;
 }
