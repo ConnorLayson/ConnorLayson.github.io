@@ -22,6 +22,7 @@
     background-color: white;
 }
 .Klopzo_Korner img{
-    scale: 15;
+    width: 200;
+    height: 200;
     align: right;
 }
