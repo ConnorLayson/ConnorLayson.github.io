@@ -16,6 +16,7 @@
 }
 
 .Klopzo_Korner {
-    text-size: 25px;
+    text-size: 50px;
+    vertical-align: middle;
     border: solid, 2px, black;
 }
