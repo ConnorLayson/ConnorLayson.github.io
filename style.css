@@ -7,10 +7,15 @@
     background-color: #5CE0C6;
 }
 #Navbar a{
-  border-style: solid;
-  border-width: 1px;
-  padding-bottom: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: #56615F;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #56615F;
+}
+
+.Klopzo_Korner {
+    text-size: 25px;
+    border: solid, 2px, black;
 }
