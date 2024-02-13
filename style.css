@@ -21,4 +21,5 @@
 .Klopzo_Korner p {
     border-style: solid;
     border_width: 2px;
+    padding: 5px 5px 5px 5px;
 }
