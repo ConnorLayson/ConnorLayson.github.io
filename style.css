@@ -20,7 +20,7 @@
     align-items: center; 
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
-    align-items: center;
+    margin-left: 25%;
 }
 .Klopzo_Korner p {
     font-size: 50px;
