@@ -15,13 +15,18 @@
   background-color: #56615F;
 }
 
-.Klopzo_Korner p{
+.Klopzo_Korner {
+    border-style: dotted;
+    border-width: 1;
+}
+.Klopzo_Korner p {
     border-style: solid;
     border-width: 3;
     float: left;
+    padding: 5;
     background-color: white;
 }
-.Klopzo_Korner img{
-    scale: 5;
+.Klopzo_Korner img {
+    height: 150px;
     float: right;
 }
