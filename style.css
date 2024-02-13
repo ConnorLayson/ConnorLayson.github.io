@@ -15,8 +15,10 @@
     background-color: #56615F;
 }
 
-.Klopzo_Korner p{
-    text-size: 100px;
-    vertical-align: middle;
-    border: solid 2px black;
+.Klopzo_Korner {
+    float: left;
+}
+.Klopzo_Korner p {
+    border-style: solid;
+    border_width: 2px;
 }
