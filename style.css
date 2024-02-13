@@ -23,7 +23,7 @@ ter#Navbar {
     border-style: solid;
     border-width: 3;
     float: left;
-    margin: center;
+    align-items: center;
     background-color: white;
 }
 .Klopzo_Korner img {
