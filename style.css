@@ -21,3 +21,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 5px;
 }
+.Klopzo_Korner p {
+    font-size: 70px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.Klopzo_Korner img {
+    width: 250px;
+}
