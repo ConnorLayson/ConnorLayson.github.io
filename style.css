@@ -1,4 +1,4 @@
-ter#Navbar {
+#Navbar {
     border-style: solid;
     border-width: 2px;
     padding-bottom: 10px;
@@ -15,17 +15,13 @@ ter#Navbar {
   background-color: #56615F;
 }
 
-.Klopzo_Korner {
-    border-style: dotted;
-    border-width: 1;
-}
 .Klopzo_Korner p {
     border-style: solid;
     border-width: 3;
     float: left;
-    align-items: center;
-    background-color: white;
-}
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 .Klopzo_Korner img {
     height: 150px;
 }
