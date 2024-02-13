@@ -19,9 +19,8 @@
     border-style: solid;
     border-width: 3;
     float: left;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    padding-top: 50%;
+}
 .Klopzo_Korner img {
     height: 150px;
 }
