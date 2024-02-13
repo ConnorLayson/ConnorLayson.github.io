@@ -23,7 +23,9 @@
 }
 .Klopzo_Korner p {
     font-size: 70px;
-    border: 2px solid black;
+    border-style: solid;
+    border-width: 2;
+    border-color: black;
     border-radius: 5px;
 }
 .Klopzo_Korner img {
