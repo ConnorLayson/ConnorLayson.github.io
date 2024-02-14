@@ -26,9 +26,14 @@ p {
     padding-top: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #56615F;
+    background-color: #362B27;
     text-decoration: none;
     color: white;
+}
+#Navbar a:hover {
+    background-color: #E07F5C;
+    color: black;
+    font-size: 30px;
 }
 
 .Klopzo_Korner {
