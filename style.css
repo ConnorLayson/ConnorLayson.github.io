@@ -2,7 +2,6 @@ p {
     font-size: 30px;
 }
 
-
 .proj {
     font-size: 30px;
     border-style: solid;
@@ -13,6 +12,10 @@ p {
     padding-right: 5px;
     background-color: #8B7168;
     text-decoration: none;
+    color: white;
+}
+.proj:hover {
+    background-color: #6AA196;
     color: black;
 }
 .main {
