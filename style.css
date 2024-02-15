@@ -2,6 +2,18 @@ p {
     font-size: 30px;
 }
 
+.proj {
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #8B7168;
+    text-decoration: none;
+    color: black;
+}
 .main {
     border-style: solid;
     border-color: black;
