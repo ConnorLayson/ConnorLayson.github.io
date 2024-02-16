@@ -11,6 +11,29 @@ italics = '\033[3m'
 underline = '\033[4m'
 end = '\033[0m'
 
+print(bold +'--==MLA Citation Generator==--')
+print(blue + 'Made by Connor Layson 2021' + end)
+print()
+print('To use:')
+print('Select menu options by typing the number ')
+print('corresponding with the option you want to select.')
+print('When prompted, type information. ' + bold + underline + 'DO NOT' + end + ' put punctuation')
+print(italics + 'Note: When prompted with DD/MMM/YYYY, DD is the day, MMM')
+print('is where you abreviate the month, and YYYY is the year.' + end)
+print()
+print('Enter the type of source you are using today:')
+print('1) Book')
+print('2) Website')
+print('3) Magazine')
+print('4) Newspaper')
+print('5) A review')
+print('6) Editorial')
+print('7) Letter')
+print('8) Anonymous articles')
+print('9) Scholarly jornal article')
+print('10) Interviews')
+print('11) Oral presentation (Speeches, Lectures, etc.)')
+
 def mainMenu():
     global selection
     print(bold +'--==MLA Citation Generator==--')
@@ -245,4 +268,4 @@ def oralPres():
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." ' + name + ', ' + date)
 
-mainMenu()
+#mainMenu()
