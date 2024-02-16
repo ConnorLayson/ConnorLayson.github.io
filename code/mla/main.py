@@ -1,3 +1,5 @@
+from js import document
+
 global italics
 global bold
 
