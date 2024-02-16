@@ -36,7 +36,7 @@ def mainMenu():
     prosessInput()
 
 def prosessInput():
-    selection = input('What would you like to select? ')
+    selection = document.getElementById('command').value
     print('You have selected ' + selection + '.')
     print()
     print('Now Loading...')
