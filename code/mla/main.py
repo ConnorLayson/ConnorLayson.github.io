@@ -35,6 +35,7 @@ def mainMenu():
     print('9) Scholarly jornal article')
     print('10) Interviews')
     print('11) Oral presentation (Speeches, Lectures, etc.)')
+    time.sleep(5)
     prosessInput()
 
 def prosessInput():
