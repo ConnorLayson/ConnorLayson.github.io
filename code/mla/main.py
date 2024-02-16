@@ -1,5 +1,3 @@
-import time
-
 global italics
 global bold
 
@@ -10,29 +8,6 @@ bold = '\033[1m'
 italics = '\033[3m'
 underline = '\033[4m'
 end = '\033[0m'
-
-print(bold +'--==MLA Citation Generator==--')
-print(blue + 'Made by Connor Layson 2021' + end)
-print()
-print('To use:')
-print('Select menu options by typing the number ')
-print('corresponding with the option you want to select.')
-print('When prompted, type information. ' + bold + underline + 'DO NOT' + end + ' put punctuation')
-print(italics + 'Note: When prompted with DD/MMM/YYYY, DD is the day, MMM')
-print('is where you abreviate the month, and YYYY is the year.' + end)
-print()
-print('Enter the type of source you are using today:')
-print('1) Book')
-print('2) Website')
-print('3) Magazine')
-print('4) Newspaper')
-print('5) A review')
-print('6) Editorial')
-print('7) Letter')
-print('8) Anonymous articles')
-print('9) Scholarly jornal article')
-print('10) Interviews')
-print('11) Oral presentation (Speeches, Lectures, etc.)')
 
 def mainMenu():
     global selection
@@ -58,7 +33,6 @@ def mainMenu():
     print('9) Scholarly jornal article')
     print('10) Interviews')
     print('11) Oral presentation (Speeches, Lectures, etc.)')
-    time.sleep(5)
     prosessInput()
 
 def prosessInput():
@@ -66,7 +40,6 @@ def prosessInput():
     print('You have selected ' + selection + '.')
     print()
     print('Now Loading...')
-    time.sleep(2)
     print()
     if selection == '1':
         book()
@@ -96,7 +69,6 @@ def prosessInput():
         print('Error code: 001')
         print()
         print('Restarting...')
-        time.sleep(2)
         print()
         mainMenu()
 
@@ -110,7 +82,6 @@ def book():
     publishDate = input("Publication Date (YYYY): ")
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. ' + italics + title + end + '. ' + publish + ', ' + publishDate + '.')
 
@@ -124,7 +95,6 @@ def web():
     accessed = input("Date you accesed the site (DD/MMM/YYYY): ")
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(italics + sitename + end +'. ' + affiliation + ', ' + date + ', ' + url + '. Accessed ' + accessed + '.')
 
@@ -140,7 +110,6 @@ def mag():
     endPage = input('Ending page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." ' + italics + magTitle + end +', ' + date + ', pp. ' + startPage + '-' + endPage + '.')
 
@@ -155,7 +124,6 @@ def newspaper():
     startPage = input('Page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." ' + italics + magTitle + end + ', ' + date + ', p. ' + startPage + '.')
 
@@ -173,7 +141,6 @@ def review():
     page = input('Page number the review was on: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." Review of ' + italics + prefTitle + end +', ' + role + ' by ' + person + '. ' + italics + workTitle + end + ', ' + date + ', p. ' + page + '.')
 
@@ -186,7 +153,6 @@ def edit():
     page = input('Page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(first + '. Editorial. ' + italics + title + end + ', ' + date + ', p. ' + page + '.')
 
@@ -199,7 +165,6 @@ def letter():
     page = input('Page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(first + '. Letter. ' + italics + title + end + ', ' + date + ', p. ' + page + '.')
 
@@ -212,7 +177,6 @@ def anonArtic():
     page = input('Page the article was on: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print('"' + title + '." ' + otherTitle + ', ' + date + ', p. ' + page + '.')
 
@@ -230,7 +194,6 @@ def scholJorn():
     page_end = input('Ending Page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." ' + italics + jornal + end + ', vol. ' + volume + ', no. ' + issue + ', ' + year + ', pp. ' + page_start + '-' + page_end + '.')
 
@@ -249,7 +212,6 @@ def inter():
     endpage = input('Ending page: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. Interview with ' + interviewed + '. ' + italics + container + end + ', vol. ' + volume + ', no. ' + issue + ', ' + year + ', pp. ' + startpage + '-' + endpage + '.')
 
@@ -264,8 +226,7 @@ def oralPres():
     address = input('Address of the location it was presented in: ')
     print()
     print('Now generating your MLA citation...')
-    time.sleep(2)
     print()
     print(lastname + ', ' + firstname + '. "' + title + '." ' + name + ', ' + date)
 
-#mainMenu()
+mainMenu()
