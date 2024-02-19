@@ -2,6 +2,15 @@ p {
     font-size: 30px;
 }
 
+.blog summary{
+    background-color: #E07F5C;
+}
+.blog {
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
 .proj {
     font-size: 30px;
     border-style: solid;
