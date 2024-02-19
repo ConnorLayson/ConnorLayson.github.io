@@ -4,8 +4,9 @@ p {
 
 .blog summary{
     background-color: #E07F5C;
+    font-size: 30px;
 }
-.blog {
+.blog details{
     font-size: 30px;
     border-style: solid;
     border-width: 1px;
