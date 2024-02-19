@@ -36,6 +36,12 @@ p {
     padding-right: 2px;
 }
 
+#left {
+    float: left;
+}
+#right {
+    float: right;
+}
 #Navbar {
     border-style: solid;
     border-width: 2px;
