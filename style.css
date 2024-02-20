@@ -1,10 +1,10 @@
 p {
     font-size: 30px;
 }
-img {
+
+.img {
     height: 100px;
 }
-
 .blog summary{
     background-color: #E07F5C;
     font-size: 30px;
