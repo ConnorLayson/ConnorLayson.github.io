@@ -2,6 +2,9 @@ p {
     font-size: 30px;
 }
 
+.txt_img {
+    height: 100;
+}
 .blog summary{
     background-color: #E07F5C;
     font-size: 30px;
