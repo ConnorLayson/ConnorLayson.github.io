@@ -2,9 +2,6 @@ p {
     font-size: 30px;
 }
 
-.txt_img {
-    height: 60;
-}
 .blog summary{
     background-color: #E07F5C;
     font-size: 30px;
@@ -30,6 +27,9 @@ p {
 .proj:hover {
     background-color: #6AA196;
     color: black;
+}
+.main img{
+    height: 60;
 }
 .main {
     border-style: solid;
