@@ -39,6 +39,10 @@ p {
     padding-right: 2px;
 }
 
+.images {
+    width: 50%;
+}
+
 #left {
     float: left;
 }
