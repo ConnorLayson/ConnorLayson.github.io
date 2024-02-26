@@ -1,1 +1,2 @@
 name="Test Script"
+packages = ["pytube"]

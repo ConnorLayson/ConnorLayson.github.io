@@ -31,11 +31,9 @@
                 </dialog>
                 
                 <section class="pyscript">
-                    <div class="font-mono">
-                        start time: <label id="output1"></label>
-                    </div>
-                    <div id="output2" class="font-mono"></div>
-                    <div id="output3" class="font-mono"></div>
+                    <input type="text" id="link-input"/>
+		    <button id="submit-button" type="submit" pys-onClick="video">Find video</button>
+                    <div id="output" class="font-mono"></div>
         
                     <script type="py" src="./code/test/main.py" async></script>
                 </section>
