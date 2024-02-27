@@ -4,7 +4,7 @@ from pytube import Playlist
 print("hello")
 
 def video():
-    link = Element('link-input').element.value
+    link =  document.querySelector("#link-input")
     try:
         yt = YouTube(link)
 
