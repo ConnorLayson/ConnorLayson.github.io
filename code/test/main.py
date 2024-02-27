@@ -1,5 +1,6 @@
 from pytube import YouTube
 from pytube import Playlist
+from pyscript import document 
 
 print("hello")
 
