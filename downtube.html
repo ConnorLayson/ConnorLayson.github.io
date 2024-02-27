@@ -31,12 +31,15 @@
                     <img src="images/Klopzo_waiting.gif" alt="Loading...">
                 </dialog>
                 
-                <section class="pyscript">
-                    <input type="text" id="link-input" placeholder="YouTube link"/>
-                    <button id="submit-button" type="submit" pys-click="video">Find video</button>
-                    <div id="output"></div>
-        
-                    <script type="py" src="code/test/main.py" async></script>
-                </section>
+                <input type="text" id="test-input"/>
+                <button id="test-button" pys-onclick="my_function">Click</button>
+                <p id="test-output"></p>
+
+                <py-script>
+def function():
+    test_text = Element("test-input").element.value
+    console.log(test_text)
+    Element("test-output").element.innerHTML = test_text
+                </py-script>
         </body>
 </html>
