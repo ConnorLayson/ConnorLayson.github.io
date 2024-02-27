@@ -7,8 +7,6 @@
         
                 <!-- PyScript CSS -->
                 <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css">
-                <!-- CSS for examples -->
-                <link rel="stylesheet" href="./assets/css/examples.css" />
         
                 <!-- This script tag bootstraps PyScript -->
                 <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
@@ -22,11 +20,11 @@
                     addEventListener('py:ready', () => loading.close());
                     loading.showModal();
                 </script>
-		<py-config>
-			packages = ['pytube']
-		</py-config>
+                <py-config>
+                    packages = ['pytube']
+                </py-config>
         
-                <title>Test</title>
+                <title>DownTube</title>
         </head>
         <body>
                 <dialog id="loading">
@@ -34,8 +32,10 @@
                 </dialog>
                 
                 <section class="pyscript">
-                    <input type="text" id="link-input" placeholder="YouTube link"/>
-                    <button id="submit-button" type="submit" pys-click="video">Find video</button>
+                    <form>
+                        <input type="text" id="link-input" placeholder="YouTube link"/>
+                        <button id="submit-button" type="submit" pys-click="video">Find video</button>
+                    </form>
                     <div id="output"></div>
         
                     <script type="py" src="code/test/main.py" async></script>
