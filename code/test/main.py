@@ -8,7 +8,7 @@ def video():
     try:
         yt = YouTube(link)
 
-        output = f'Title: {yt.title}/nViews: {yt.views}/nLength: {yt.length}'
+        output = 'Found video'
         Element('output').write(output)
     except:
         output = "There was an error with your link"
