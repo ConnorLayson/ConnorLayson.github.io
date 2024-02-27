@@ -1,2 +1,0 @@
-name="Test Script"
-packages = ["pytube==7.0.16"]
