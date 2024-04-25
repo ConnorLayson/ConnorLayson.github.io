@@ -1,6 +1,17 @@
 p {
     font-size: 30px;
 }
+button {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+button:hover {
+    background-color: RoyalBlue;
+  }
 
 .blog summary{
     background-color: #E07F5C;
