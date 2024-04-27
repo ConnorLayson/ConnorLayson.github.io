@@ -1,8 +1,7 @@
 body {
     background-image: url("images/bitmap.png");
-    background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
 }
 p {
     font-size: 30px;
