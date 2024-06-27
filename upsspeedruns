@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>UPS Store Speedeun</title>
+</head>
+<body>
+  <h1>The UPS Store Speedruns</h1>
+  <hr>
+  <h4>Close 1 Regester</h4>
+  <table>
+    <tr>
+      <th>Name(s)</th>
+      <th>Time</th>
+    </tr>
+    <tr>
+      <td>Connor</td>
+      <td>3:58</td>
+    </tr>
+  </table>
+</body>
+</html>
