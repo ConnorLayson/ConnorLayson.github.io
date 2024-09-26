@@ -1,5 +1,17 @@
+/* General tags */
+body {
+    background-image: url("images/background.png");
+    background-size: 100%;
+}
 p {
     font-size: 30px;
+}
+ul {
+    text-align: left;
+    font-size: 25px
+}
+a {
+    font-size: 25px;
 }
 button {
     background-color: DodgerBlue;
@@ -8,38 +20,23 @@ button {
     padding: 12px 30px;
     cursor: pointer;
     font-size: 20px;
-  }
+}
 button:hover {
     background-color: RoyalBlue;
-  }
+}
 
-.blog summary{
-    background-color: #E07F5C;
-    font-size: 30px;
+/* General classes & ids */
+.images {
+    width: 50%;
 }
-.blog details{
-    font-size: 30px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: white;
+#left {
+    float: left;
 }
-.proj {
-    font-size: 30px;
-    border-style: solid;
-    border-width: 1px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: #8B7168;
-    text-decoration: none;
-    color: white;
+#right {
+    float: right;
 }
-.proj:hover {
-    background-color: #6AA196;
-    color: black;
-}
+
+/* Main content */
 .main img{
     height: 60;
 }
@@ -53,16 +50,27 @@ button:hover {
     background-color: white;
 }
 
-.images {
-    width: 50%;
+/* Klopzo Korner */
+.Klopzo_Korner {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    margin-left: 25%;
+}
+.Klopzo_Korner p {
+    font-size: 35px;
+    border-style: solid;
+    border-width: 2;
+    border-color: black;
+    border-radius: 15px;
+    background-color: white;
+}
+.Klopzo_Korner img {
+    width: 200px;
 }
 
-#left {
-    float: left;
-}
-#right {
-    float: right;
-}
+/* Navigation */
 #Navbar {
     border-style: solid;
     border-width: 2px;
@@ -86,6 +94,7 @@ button:hover {
     background-color: #362B27;
     text-decoration: none;
     color: white;
+    transition: 500ms;
 }
 #Navbar a:hover {
     background-color: #E07F5C;
@@ -93,21 +102,36 @@ button:hover {
     font-size: 25px;
 }
 
-.Klopzo_Korner {
-    display: grid;
-    align-items: center; 
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
-    margin-left: 25%;
+/* Starting here is page-specific code*/
+
+    /* Blog */
+.blog summary{
+    background-color: #E07F5C;
+    font-size: 30px;
 }
-.Klopzo_Korner p {
-    font-size: 35px;
+.blog details{
+    font-size: 30px;
     border-style: solid;
-    border-width: 2;
+    border-width: 1px;
     border-color: black;
-    border-radius: 15px;
     background-color: white;
 }
-.Klopzo_Korner img {
-    width: 200px;
+
+    /* projects */
+.proj {
+    font-size: 30px;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #8B7168;
+    text-decoration: none;
+    color: white;
+    transition: 500ms;
+}
+.proj:hover {
+    background-color: #6AA196;
+    color: black;
 }
